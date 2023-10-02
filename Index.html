@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--METADATOS-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diseño de interiores, reformas JMR">
+  <meta name="keywords" content="decoración,estilo,hogar,interiores,reformas">
+  <!--TITULO-->
+  <title>Diseños JMR</title>
+  <!--FAVICON-->
+  <link rel="icon" type="image/x-icon" href="images/favicon redondo.png">
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--ICONOS BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--CSS-->
+  <link href="styles.css" rel="stylesheet">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!--ENCABEZADO-->
+  <header>
+    <div id="menu" class="container-fluid">
+      <div class="row">
+        <!--Logo Pagina-->
+        <div class="col-12 col-md-6 order-md-2 text-center">
+          <img src="images/logo-design-manucho.png" alt="Logo de Design at home" width="50%">
+        </div>
+        <!--Barra de navegacion-->
+        <div class="col-12 col-md-12 order-md-4">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center aling-items-center" id="navbar-toggler">
+                <ul class="navbar-nav d-flex justify-center aling-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aromatherapy">Aromatherapy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--Buscador-->
+        <div class="col-6 col-md-3 order-md-1 text-center">
+          <div class="buscar input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Buscar" aria-label="Search"
+              aria-describedby="search-addon" />
+            <span class="input-group-text border-0" id="search-addon">
+              <i class="bi bi-search"></i>
+            </span>
+          </div>
+        </div>
+        <!--Link Redes-->
+        <div class="col-6 col-md-3 order-md-3">
+          <ul class="redes">
+            <li>
+              <a href="https://instagram.com/designathome.ar?igshid=MWZjMTM2ODFkZg==" target="_blank"><i
+                  class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/desigathome?mibextid=LQQJ4d" target="_blank"><i
+                  class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--CAROUSEL-->
+  <section>
+    <div id="carouselIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="images/fondo3 1600 800.jpg" class="d-block w-100 diapo-img" alt="Imagen de decoracion living">
+          <div class="carousel-caption d-inline-block">
+            <p class="texto-carousel">Tu <b>CASA</b> cuenta tu <b>HISTORIA</b>,</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/fondo4 1600 400.jpg" class="d-block w-100 diapo-img" alt="Imagen mujer con vela">
+          <div class="carousel-caption d-inline-block">
+            <p class="texto-carousel">es una colección de todo lo que <b>AMÁS</b>,</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/fondo1600 400.jpg" class="d-block w-100 diapo-img" alt="Imagen de decoracion mueble">
+          <div class="carousel-caption d-inline-block">
+            <p class="texto-carousel">refleja tu <b>PERSONALIDAD</b>,</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <img src="images/fondo 2 1600 400.jpg" class="d-block w-100 diapo-img" alt="Imagen de decoracion baño">
+          <div class="carousel-caption d-inline-block">
+            <p class="texto-carousel">Tu <b>CASA</b>, es <b>ÚNICA</b> y <b>ESPECIAL</b>.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="controles carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="controles carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!--SERVICIOS-->
+  <section id="servicios" class="servicios">
+    <h1 class="text-center">SERVICIOS </h1>
+    <h3 class="text-center">Nos adaptamos al presupuesto de cada cliente.</h3>
+    <div class="container text-center">
+      <div class="row">
+        <!--Diseno de interiores-->
+        <div class="carta col-12 col-md-3">
+          <img src="images/favicon redondo.png" alt="Logo pequeño de la marca">
+          <p class="titulo-carta">Diseño de interiores</p>
+          <p class="texto-carta">Brindamos asesoría personalizada, damos nuestra opinión profesional, pero también
+            escuchamos tus ideas.</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Proyectos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+            <button type="button" class="btn">
+              Etapas
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <!--Reformas-->
+        <div class="carta col-12 col-md-3">
+          <img src="images/favicon redondo.png" alt="Logo pequeño de la marca">
+          <p class="titulo-carta">Reformas</p>
+          <p class="texto-carta">Podemos reformar tu casa completa o solos esos espacios que necesitan un cambio para
+            sentir que "estamos como en casa".</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Trabajos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+            <button type="button" class="btn">
+              Etapas
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <!--Reciclado-->
+        <div class="carta col-12 col-md-3">
+          <img src="images/favicon redondo.png" alt="Logo pequeño de la marca">
+          <p class="titulo-carta">Reciclado</p>
+          <p class="texto-carta"> Le damos una segunda oportunidad a los muebles y objetos, contribuyendo con la
+            naturaleza: Reducir, Rehusar y Reciclar.</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Proyectos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <!--Diseno de muebles-->
+        <div class="carta col-12 col-md-3">
+          <img src="images/favicon redondo.png" alt="Logo pequeño de la marca">
+          <p class="titulo-carta">Diseño de muebles</p>
+          <p class="texto-carta">Diseñamos, construimos e instalamos muebles a medida.
+            Con nosotros tendrás "ese" mueble que trae funcionalidad y brinda identidad a tu espacio.</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Proyectos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a class="boton-menu" href="#menu">Volver a menu <i class="bi bi-arrow-up-circle"></i></a>
+    </div>
+  </section>
+
+  <!--AROMATHERAPY-->
+  <section id="aromatherapy" class="aromatherapy">
+    <h1 class="text-center">AROMATHERAPY</h1>
+    <h3 class="text-center">Una nueva manera de disftrutar de nuestras casas.</h3>
+    <!--GALERIA DE PRODUCTOS-->
+    <div class="container text-center">
+      <div class="row productos">
+        <!--Velas-->
+        <div class="carta col-12 col-md-4 d-flex flex-column ">
+          <img src="images/vela.jpg" alt="Imagen de vela">
+          <p class="titulo-carta">Velas</p>
+          <p class="texto-carta">Descubrí nuestras velas de cera de soja en sus 4 variedades de aromas disponibles:
+            Keep Calm , French Verbena, Italian Figs y Tilo.</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Ir a Tienda
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+        <!--Spray-->
+        <div class="carta col-12 col-md-4  d-flex flex-column">
+          <img src="images/home -spray.jpg" alt="Imagen de spray">
+          <p class="titulo-carta">Spray</p>
+          <p class="texto-carta">Perfume de ropa y ambiente a base de alcohol de cereal, agua mineral y aceites
+            esenciales premium, super intensos y para ambientes espaciosos.</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Ir a Tienda
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+
+        <!--Difusor-->
+        <div class="carta col-12 col-md-4  d-flex flex-column">
+          <img src="images/difusor.jpg" alt="Imagen de difusor">
+          <p class="titulo-carta">Difusores</p>
+          <p class="texto-carta"> Todos nuestros perfumes son super intensos y para ambientes espaciosos.
+            Incluye 5 varillas de bamboo difusoras en una presentación de 250 ml</p>
+          <div class="contenedor-botones-accion">
+            <button type="button" class="btn">
+              Ir a Tienda
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a class="boton-menu" href="#menu">Volver a menu <i class="bi bi-arrow-up-circle"></i></a>
+    </div>
+  </section>
+
+
+  <!--PROYECTOS-->
+  <section id="proyectos" class="proyectos">
+    <h1 class="text-center">PROYECTOS</h1>
+    <h3 class="text-center">Una nueva manera de disftrutar de nuestras casas.</h3>
+    <div class="container proyecto">
+      <div class="row d-flex justify-content-around">
+        <div class="proyecto col-12 col-md-6">
+          <div class="card text-bg-light">
+            <img src="images/Living1280x720.jpg" class="card-img" alt="Imagen Decoración de Living">
+            <div class="card-img-overlay">
+              <p class="titulo-carta">Decoración Living</p>
+              <p class="texto-carta">Un living con una deco muy práctica: colores neutros pero con
+             accesorios que le dan una nota de color.</p>
+              <div class="contenedor-botones-accion">
+                <button type="button" class="btn">
+                  ...Ver más
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col-12 col-md-6">
+          <div class="card text-bg-light">
+            <img src="images/DORMITORIO-1280x720.jpeg" class="card-img" alt="Imagen Decoracion dormitorio">
+            <div class="card-img-overlay">
+              <p class="titulo-carta">Decoracion dormitorio</p>
+              <p class="texto-carta">Un dormitorio inspirado en los colores de la naturaleza.
+              </p>
+              <div class="contenedor-botones-accion">
+                <button type="button" class="btn">
+                  ...Ver más
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col-12 col-md-6">
+          <div class="card text-bg-light">
+            <img src="images/bano1280x720.jpg" class="card-img" alt="Inmagen Renovacion cocina">
+            <div class="card-img-overlay">
+              <p class="titulo-carta">Reforma Baño</p>
+              <p class="texto-carta">En este baño, nos enfocamos en darle un toque de modernidad y calidez.</p>
+              <div class="contenedor-botones-accion">
+                <button type="button" class="btn">
+                  ...Ver más
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proyecto col-12 col-md-6">
+          <div class="card text-bg-light">
+            <img src="images/bano1280x720.jpg" class="card-img" alt="Inmagen Renovacion cocina">
+            <div class="card-img-overlay">
+              <p class="titulo-carta">Reforma Baño</p>
+              <p class="texto-carta">En este baño, nos enfocamos en darle un toque de modernidad y calidez.</p>
+              <div class="contenedor-botones-accion">
+                <button type="button" class="btn">
+                  ...Ver más
+                  <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a class="boton-menu" href="#menu">Volver a menu <i class="bi bi-arrow-up-circle"></i></a>
+    </div>
+
+
+  </section>
+
+  <!--TESTIMONIOS-->
+  <section class="testimonios">
+    <h1 class="text-center">TESTIMONIOS</h1>
+    <h3 class="text-center">Esto opinan nuestros clientes.</h3>
+    <div id="controles" class="carousel slide opiniones carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item caja-carousel active">
+          <img src="images/persona.png" class="rounded-circle cliente-img" alt="Imagen Cliente">
+          <p class="texto-opiniones text-center">¡Les quedó lindísimo! Que bueno poder contar con ustedes para que se
+            encarguen del trabajo desde el diseño hasta el final de obra. </p>
+
+        </div>
+        <div class="carousel-item caja-carousel">
+          <img src="images/mujer.png" class="rounded-circle cliente-img" alt="Imagen Cliente">
+          <p class="texto-opiniones text-center">¡¡Increíble!! Sos el mejor! Mi nota es un 10👏 </p>
+
+        </div>
+        <div class="carousel-item caja-carousel">
+          <img src="images/hombre.png" class="rounded-circle cliente-img" alt="Imagen Cliente">
+          <p class="texto-opiniones text-center">Increíble el cambio, excelente trabajo 🙌👏🏻👏🏻👏🏻 </p>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#controles" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#controles" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div>
+      <a class="boton-menu" href="#menu">Volver a menu <i class="bi bi-arrow-up-circle"></i></a>
+    </div>
+
+
+  </section>
+
+  <!--CONTACTO-->
+  <section id="contacto" class="contacto">
+    <h1 class="text-center">¡HABLEMOS! </h1>
+    <h3 class="text-center">Contactanos para que tus proyectos se hagan realidad .</h3>
+    <div class="container formulario">
+      <div class="row">
+        <div class="col-md-4">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico" required>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <form>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <div class="text-center boton">
+              <button type="submit" class="btn btn-primary btn-send">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 tarjeta">
+          <div class="nombre">Manucho Roux
+          </div>
+          <div class="info-personal">
+            <p><strong>Ubicación:</strong> Mariano Castex 10000, Caning <br>Bs. As., Argentina</p>
+            <p><strong>Teléfono:</strong> (+5411) 1111-1111</p>
+          </div>
+        </div>
+      </div>
+          <div>
+            <p class="titulo-carta text-center">Viví tu casa con estilo.<br>Vivila con design-at-home.</p>
+          </div>
+        </div>
+        <div>
+          <a class="boton-menu" href="#menu">Volver a menu <i class="bi bi-arrow-up-circle"></i></a>
+        </div>
+      
+  </section>
+  <hr>
+  <!--FOOTER-->
+  <footer>
+    <div class="derechos-de-autor"> Creado por Eleonora Roux (2023) &#169; </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
